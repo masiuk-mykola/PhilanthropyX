@@ -1,0 +1,31 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+
+// utils
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+@import './utils/reset-style';
+@import './utils/breakpoints';
+
+// components
+@import './components/body';
+@import './components/container';
+@import './components/section';
+
+// layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/about';
+@import './layouts/results';
+@import './layouts/video';
+@import './layouts/help';
+@import './layouts/banner';
+@import './layouts/testimonials';
+@import './layouts/news';
+@import './layouts/footer';
