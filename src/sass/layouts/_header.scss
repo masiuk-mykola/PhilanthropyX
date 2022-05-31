@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+  padding: 5px 10px;
+
+  border-bottom: 1px solid #e5e5e5;
+  @media screen and (min-width: $tablet) {
+    padding: 15px 55px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 33px 110px;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__icon {
+  margin-right: 9px;
+}
+.logo__text {
+  font-weight: 700;
+  color: $black-txt-clr;
+  @media screen and (min-width: $tablet) {
+    margin-right: 40px;
+  }
+}
+.navigation {
+  @media screen and (min-width: $tablet) {
+    margin-right: auto;
+  }
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 26px;
+}
+.navigation__link {
+  font-size: 17px;
+  line-height: 1.77;
+
+  color: $black-txt-clr;
+}
+.basket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket__icon {
+  margin-right: 25px;
+}
+.btn {
+  @include btn(transparent, $accent-clr);
+}
+.basket__btn {
+  padding: 10px 24px;
+
+  @media screen and (min-width: $tablet) {
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 1.22;
+  }
+}
