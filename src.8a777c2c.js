@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/PhilanthropyX/PhilanthropyX/src/images/hero/hero.jpg":[["hero.3ea70b3d.jpg","gEAR"],"gEAR"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.bc85ad02.js.map
+//# sourceMappingURL=/PhilanthropyX/src.8a777c2c.js.map
