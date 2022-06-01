@@ -1,0 +1,39 @@
+.container__flex--banner {
+  position: relative;
+  background-color: $accent-clr;
+  border-radius: 40px;
+
+  padding: 170px 60px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 680px;
+    height: 664px;
+
+    background-repeat: no-repeat;
+    background-image: url('/images/banner/vector.png');
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 90px;
+    right: -235px;
+    width: 680px;
+    height: 664px;
+
+    background-repeat: no-repeat;
+    background-image: url('/images/banner/vector1.png');
+  }
+}
+.section__subtitle--banner {
+  position: relative;
+  z-index: 10;
+  width: 487px;
+  margin-bottom: 0;
+}
+.video__list--banner {
+  position: relative;
+  z-index: 10;
+}
