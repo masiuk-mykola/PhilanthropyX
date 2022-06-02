@@ -2,6 +2,15 @@
   text-align: center;
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(255, 212, 164, 1) 50%);
 }
+.video__container::after {
+  content: '';
+  position: relative;
+  bottom: -100px;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #dad1ca;
+}
 
 .section__title--video {
   color: $black-txt-clr;
